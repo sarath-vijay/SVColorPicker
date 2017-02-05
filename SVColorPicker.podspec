@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'SVColorPicker'
-s.version          = '1.0.0'
+s.version          = '2.0.0'
 s.summary          = 'A subclass of UIView wich privide a color picker slider for user.'
 s.description      = <<-DESC
 TODO: This CocoaPods provide a color picker slider for user and user can move the slider point to required color position. A callback block is invoked during the slider position chang and the selected color value will be available as a param in callback block.
