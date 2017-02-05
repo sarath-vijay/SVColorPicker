@@ -7,7 +7,7 @@
 
 SVColorPicker is a lightweight color picker library written in swift. User will be presented with a slider and on sliding, user can select required color. 
 
-![sample_gif](https://github.com/sarath-vijay/SVColorPicker/blob/master/demo.gif)
+![sample_gif](https://github.com/sarath-vijay/SVColorPicker/blob/master/Demo.gif)
 
 ## Requirements
 
