@@ -5,24 +5,53 @@
 [![License](https://img.shields.io/cocoapods/l/SVColorPicker.svg?style=flat)](http://cocoapods.org/pods/SVColorPicker)
 [![Platform](https://img.shields.io/cocoapods/p/SVColorPicker.svg?style=flat)](http://cocoapods.org/pods/SVColorPicker)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+
+- Xcode 8
+- Swift 3
+- iOS 10+
 
 ## Installation
 
-SVColorPicker is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Using CocoaPods:
 
-```ruby
-pod "SVColorPicker"
+To integrate SVColorPicker into your Xcode project using CocoaPods, specify it in your Podfile:
+```swift
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+pod ’SVColorPicker’, ‘1.0.0'
+end
+```
+
+Then, run the following command:
+```swift
+$ pod install
+```
+
+### Manually:
+
+* Download SVColorPicker.
+* Drag and drop SVColorPicker directory to your project
+## Usage
+
+For including color picker in your view, add the following code
+
+```swift
+let colorPickerframe = __REQUIRED_FRAME__
+let colorPicker = ColorPickerView(frame: colorPickerframe)
+colorPicker.colorChangeBlock = { color in
+//Use color and do the requied.
+}
+self.view.addSubview(colorPicker)
 ```
 
 ## Author
 
-sarath, sarath@qburst.com
+sarath, sarathvijayp@gmail.com
 
 ## License
 
