@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SVColorPicker.svg?style=flat)](http://cocoapods.org/pods/SVColorPicker)
 [![Platform](https://img.shields.io/cocoapods/p/SVColorPicker.svg?style=flat)](http://cocoapods.org/pods/SVColorPicker)
 
+SVColorPicker is a lightweight color picker library written in swift. User will be presented with a slider and on sliding, user can select required color. 
+
+![sample_gif](https://github.com/sarath-vijay/SVColorPicker/blob/master/demo.gif)
+
 ## Requirements
 
 - Xcode 8

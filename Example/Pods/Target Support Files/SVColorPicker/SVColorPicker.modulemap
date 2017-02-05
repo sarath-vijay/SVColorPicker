@@ -1,0 +1,6 @@
+framework module SVColorPicker {
+  umbrella header "SVColorPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
