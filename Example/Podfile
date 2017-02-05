@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SVColorPicker_Example' do
+  pod 'SVColorPicker', :path => '../'
+
+  target 'SVColorPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
