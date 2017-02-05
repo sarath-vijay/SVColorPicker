@@ -1,0 +1,16 @@
+PODS:
+  - SVColorPicker (0.1.0)
+
+DEPENDENCIES:
+  - SVColorPicker (from `../`)
+
+EXTERNAL SOURCES:
+  SVColorPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SVColorPicker: e46ab1ae480300db56c13a8ab6ca140a1bea3b44
+
+PODFILE CHECKSUM: 5e1262ee3e7ee5be3bc09cc14da68a18eed75416
+
+COCOAPODS: 1.1.1
